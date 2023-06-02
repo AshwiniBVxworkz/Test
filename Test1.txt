@@ -1,0 +1,170 @@
+1.Explain java and javac . 
+=*java is a command given in command prompt to run a java program.
+ *javac is command given in command prompt to compile a java program.
+ 
+2.Explain JDK,JVM,JRE
+=JVM-Java Virtutal Machine
+ *It performs mainly 3 tasks.They are as follows:
+ 1)Loads Byte code.
+ 2)Verifies Byte code.
+ 3)Interprits the Byte code.
+ Along with this it provides run time environment to run aprogran.
+ It is not visible.
+ 
+ JRE-Java Run Rime Environment
+ *It provides run time environment.
+ *JRE=JVM+Set of libraries.
+ *If we just want to execute a code,just we can have JRE instaed of JDK.
+ *This is visible in form of folder in laptops.
+ 
+JDK-Java Development Kit
+*JDK=JRE+Development tools(Compiler,Docs)
+*If we want to compile code we want jdk.This is also visible inform of folder. 
+
+All these three:JDK,JRE,JVM are platform dependent.Only Byte code platfrom independent
+
+3.List the limitations af an array.
+=Arrays cannot story diffent type of data.It is used only to store same type of data.
+
+4.Explain class ,object and signature of class.
+=Class
+*Blueprint/Design/Template of a real world entity which has states and behaviours.
+Here states refers to variables and behaviours refers to methods.
+
+Object 
+*Object is an instance of a class.
+Object is created in oreder to create multiple copy of a class.
+Object is created with a key word called new.
+Object is only created for instance variables and methods.Not for static.
+eg. Hospital patient=new Hospital();
+This is a synatx used to create object where Hospital is class name,patient is a reference variable,new is a keyword to create object, Hospital() is a constructor.
+
+signature of class
+class ClassName{
+
+}
+
+Here class is a keyword used to create a class.className is identifier i.e name of a class and it must start with a upper case as per standars in java.
+
+5.Diffenece between .java file and .class file.
+=
+.java file
+i)source code which is written in editors are saved with .java extentions.
+ii)source code with .java extentions are human understandable language.
+.class file
+i)After compilation of source code ,byte code is saved with extentions .class  .
+ii)Code in .class extentions are intermediate between source code and machine code.
+
+6.Explain method signature.
+
+=Access specifires returntype method name(parameters){
+code //
+}  
+eg. public static void addName(String newName){
+
+System.out.println(newName);
+} 
+Here public is a access specifier, static is a non- access specifier, void is return type,addName is method name and  newName is parameterized variable which is of type String.
+
+ 
+ 7.What is Java?
+ =Java is a high-level object oriented programming language.
+ 
+ 8.List Java IDE's.
+ *Notepad
+ *Eclipse
+ *Intellige IDEA
+ 
+ 9.What is variable?Explain its types.
+ =Variable is a container which is used to store some data.(or)Variable is a container which holds the reference of a data.
+ There are mainly 4 types of variable.They are:
+ i)local
+ ii)static
+ iii)instance
+ iv)parameters
+ 
+  i)local-local variables are the variables which are declared within the body of the method.Scope of local variables are within particular within which there variables are declare and initialized.Other methods and class are unaware of this
+  variable.
+  ii)static-variable which is declared outside method within class along with static keyword.
+  eg.static int a;
+  iii)instance-vaiable which is declared outside method within class along without static keyword.We need to craete object in case of instance variables.
+  iv))parameters-variable declared inside paranthesis of method.
+  
+  10)List 15 kerwords
+  1)static
+  2)new
+  3)if
+  4)else
+  5)for
+  6)class
+  7)this
+  8)super
+  9)extend
+  10)public
+  11)private
+  12)while
+  13)dowhile
+  14)else if
+  15)int,long,short,boolean,String
+  
+  11)What is a class Variable?
+  
+  12)What is datatype and explain its types
+  =Datatype tells the type of data stored in the variable.We need to explicitly declare the type of variable to be stored in a vaiable.
+  Mainly it has 2 type;1)Primitive and 2)Non-Primitive
+  Primitive has has 8 types-1)bye 2)short 3)int 4)long 5)float 6)double 5)char 6)boolean
+  Non-Primitive are-String ,Array, Class
+  
+  13)What is dot operator?
+  Dot operator is a operartor used to acces methods or variables or class.
+  
+  14)List Java Features.
+  Simple Language
+  Platform Independent
+  Secure  Language 
+  Robust in nature
+  Has automatic garbage collector
+  
+  15)What is base class of all the classes/
+  Object class
+  
+  16)What is method overloading?
+  
+  Method overloading is  a technique of having methods of same name but difference in parameters ie.parameters types or parameters length.
+  
+  eg class Theatre{
+  public static void main(String []args){
+  System.out.println("main");
+  main();
+  main(14);
+  main(1,3)
+  }
+  public static void main(){
+   System.out.println("main method overlaoding ");
+  }
+  public static void main(int a){
+   System.out.println(a);
+  }
+  public static void main(int a,int b){
+  System.out.println(a);
+  System.out.println(b);
+  }
+  }
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
